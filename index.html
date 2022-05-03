@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet" />
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main id="main">
+        <div class="main-container">
+            <div class="calculator">
+                <div class="main__result">
+                    <p class="main__result-display" id="result-display"></p>
+                </div>
+                <div class="calculator-grid">
+                    <div class="calculator-button operators" id="reset-button">
+                        <p class="calculator-button__text">AC</p>
+                    </div>
+                    <div class="calculator-button operators" id="plus-minus-button">
+                        <p class="calculator-button__text">±</p>
+                    </div>
+                    <div class="calculator-button operators" id="factorial-button">
+                        <p class="calculator-button__text">!</p>
+                    </div>
+                    <div class="calculator-button" id="divide-button">
+                        <p class="calculator-button__text">÷</p>
+                    </div>
+                    <div class="calculator-button" id="seven-button">
+                        <p class="calculator-button__text">7</p>
+                    </div>
+                    <div class="calculator-button" id="eight-button">
+                        <p class="calculator-button__text">8</p>
+                    </div>
+                    <div class="calculator-button" id="nine-button">
+                        <p class="calculator-button__text">9</p>
+                    </div>
+                    <div class="calculator-button" id="multiply-button">
+                        <p class="calculator-button__text">x</p>
+                    </div>
+                    <div class="calculator-button" id="four-button">
+                        <p class="calculator-button__text">4</p>
+                    </div>
+                    <div class="calculator-button" id="five-button">
+                        <p class="calculator-button__text">5</p>
+                    </div>
+                    <div class="calculator-button" id="six-button">
+                        <p class="calculator-button__text">6</p>
+                    </div>
+                    <div class="calculator-button" id="subtract-button">
+                        <p class="calculator-button__text">-</p>
+                    </div>
+                    <div class="calculator-button" id="one-button">
+                        <p class="calculator-button__text">1</p>
+                    </div>
+                    <div class="calculator-button" id="two-button">
+                        <p class="calculator-button__text">2</p>
+                    </div>
+                    <div class="calculator-button" id="three-button">
+                        <p class="calculator-button__text">3</p>
+                    </div>
+                    <div class="calculator-button" id="plus-button">
+                        <p class="calculator-button__text">+</p>
+                    </div>
+                    </div>
+                    <div class="calculator-grid__last-row">
+                        <div class="last-row__element"  id="zero-button">
+                        <p class="calculator-button__text">0</p>
+                        </div>
+                        <div class="last-row__element" id="dot-button">
+                        <p class="calculator-button__text">.</p>
+                        </div>
+                        <div class="last-row__element"  id="result-button">
+                        <p class="calculator-button__text">=</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>
+            Copyright ©
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            Kai Takami
+        </p>
+        <a href="https://github.com/kaitakami" target="_blank">
+            <i class="fab fa-github"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
